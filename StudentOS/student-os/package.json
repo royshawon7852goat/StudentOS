@@ -1,0 +1,23 @@
+{
+  "name": "student-os",
+  "version": "1.0.0",
+  "description": "StudentOS — Personal University Student Productivity and Academic Management Platform",
+  "scripts": {
+    "start": "python backend/main.py",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && python main.py",
+    "build": "cd frontend && npm run build",
+    "test": "cd backend && python test_e2e.py"
+  },
+  "keywords": [
+    "studentos",
+    "academic-management",
+    "student-portal",
+    "attendance-calculator",
+    "bunk-calculator",
+    "study-planner",
+    "pomodoro"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}
